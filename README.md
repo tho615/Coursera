@@ -12,9 +12,9 @@
 * Weel-5: Module-5 - Coding
 
 
-# Finished Assignmentsfor grading :
+# Finished Assignments for grading :
 
-* [Module-2]
+* [Module-2] https://tho615.github.io/Coursera/module-2/
 * [Module-3]
 * [Module-4]
 * [Module-5]
