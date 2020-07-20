@@ -1,0 +1,138 @@
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  background-image: url("menu-background.jpg");
+  background-color: #F7F4E9;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.heading {
+  font-size: 175%;
+	color: #1D1D2C;
+	text-align: center;
+}
+
+.container{
+ position: relative;
+ top:60px;
+ margin: 15px; 
+}
+
+.row {
+  width: 100%;
+}
+
+.content-box {
+  position: relative;
+	border:	1px solid black;
+	background-color: #F7F4E9;
+	color: #000000;
+  margin: 15px;
+  padding: 25px;
+}
+
+.content-box p {
+  margin-top: 25px;
+  text-align: justify;
+}
+
+.title-box {
+  position: absolute;
+  top:0;
+  right: 0px;
+  font-weight: 400;
+  font-size: 125%;
+  text-align: center;
+  color: #FFFFFF; 
+  padding: 6px 90px;
+  border-left: 1px solid #000;
+  border-bottom: 1px solid #000;
+	background-color: #3CBCC3;
+}
+
+#content-title1 {
+	background-color: #3CBCC3;
+}
+
+#content-title2 {
+  background-color: #EBA63F;
+}
+#content-title3 {
+	background-color: #6495ed;
+}
+
+/* Desktop View */
+
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+}
+
+/* Tablet View */
+
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-tablet{
+   width: 100%;
+   float: left;
+ }
+}
+
+/* Mobile View */
+
+@media (max-width: 767px){
+  .col-sm-12{
+    width: 100%;
+    float: left;
+  }
+}
