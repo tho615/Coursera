@@ -14,7 +14,7 @@
 
 # Finished Assignmentsfor grading :
 
-* [Module-2]
+* [Module-2]https://tho615.github.io/Coursera/module-2/
 * [Module-3]
 * [Module-4]
 * [Module-5]
