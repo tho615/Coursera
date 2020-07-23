@@ -24,7 +24,7 @@ body {
 	padding-top: 10px;
 }
 .navbar-nav {
-  	margin:0 -15px !important;
+  	margin:0 15px !important;
 }
 /** Brand text styling **/
 
@@ -71,7 +71,7 @@ body {
 #nav-list li a:hover {
   	color: #E40C2B;
   	background: #F7F4E9;
-  	border: 1px solid;   
+  	border-left: 10px solid;   
   	font-weight: 600;
   	line-height: 2;
 }
@@ -121,3 +121,14 @@ body {
     padding:5px 15px;
   }
 }
+
+@media (max-width: 376px) { 
+	body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	background-image: url("/img/menu-background.jpg");
+  	background-color: #F7F4E9;
+  	background-repeat: no-repeat;
+  	background-size: contain;
+}
+ 
