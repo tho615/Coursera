@@ -14,7 +14,7 @@
 
 # Finished Assignments for grading :
 
-* [Module-4] https://tho615.github.io/Coursera/module-4/
+* [Module-4] https://tho615.github.io/Coursera/module-4/index.html
 
 *  Review criteria
 
