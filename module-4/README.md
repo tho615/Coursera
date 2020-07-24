@@ -14,10 +14,13 @@
 
 # Finished Assignments for grading :
 
-* [Module-2] https://tho615.github.io/Coursera/module-2/
-* [Module-3] https://tho615.github.io/Coursera/module-3/
 * [Module-4] https://tho615.github.io/Coursera/module-4/
-* [Module-5]
+
+*  Review criteria
+
+Open Browser Developer Tools Console to view the output.
+
+This is a pass or fail assignment. If the required functionality works, you pass. If it doesn't, it's marked as failed. (I.e., try again).
 
 
 
